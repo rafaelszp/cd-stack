@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/docker/docker.iml" filepath="$PROJECT_DIR$/docker/docker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaservice/java-service.iml" filepath="$PROJECT_DIR$/javaservice/java-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nginx/nginx.iml" filepath="$PROJECT_DIR$/nginx/nginx.iml" />
+    </modules>
+  </component>
+</project>

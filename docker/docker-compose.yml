@@ -1,0 +1,42 @@
+version: '3'
+services:
+  consul:
+    container_name: consul
+    command: -server -advertise $DOCKER_IP -bootstrap
+    ports:
+     - "8400:8400"
+     - "8500:8500"
+     - "8600:53/udp"
+    image: "progrium/consul"
+
+  registrator:
+    container_name: registrator
+    command: consul://consul:8500
+    image: gliderlabs/registrator:latest
+    links:
+    - consul
+    volumes:
+    - "/var/run/docker.sock:/tmp/docker.sock"
+
+  time-service-app:
+    container_name: time-service-app
+    image: "rafaelszp/javaservice"
+    ports:
+      - "10080:10080/tcp"
+      - "10443:10443/tcp"
+    volumes:
+      - "$PWD/javaservice/target/java-service-hollow-swarm.jar:/javaservice/java-service-hollow-swarm.jar:ro"
+      - "$PWD/javaservice/target/java-service.war:/javaservice/java-service.war:ro"
+      - "$PWD/javaservice/src/main/resources/project-stages.yml:/javaservice/project-stages.yml:ro"
+    environment:
+      - SERVICE_NAME=time-service-app
+
+  nginx-ct:
+    container_name: nginx_ct
+    image: "rafaelszp/nginx-consul-template"
+    ports:
+      - "8080:80/tcp"
+    volumes:
+      - "$PWD/nginx/service.ctmpl:/templates/service.ctmpl"
+    links:
+      - consul

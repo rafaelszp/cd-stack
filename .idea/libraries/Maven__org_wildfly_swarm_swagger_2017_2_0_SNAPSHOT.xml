@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.wildfly.swarm:swagger:2017.2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/wildfly/swarm/swagger/2017.2.0-SNAPSHOT/swagger-2017.2.0-20170105.180921-3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/wildfly/swarm/swagger/2017.2.0-SNAPSHOT/swagger-2017.2.0-20170105.180921-3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/wildfly/swarm/swagger/2017.2.0-SNAPSHOT/swagger-2017.2.0-20170105.180921-3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

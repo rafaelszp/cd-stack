@@ -1,0 +1,53 @@
+application:
+  name: time-service
+swarm:
+  context:
+    path: /time-service
+  port:
+    offset: 2000
+  ds:
+    name: Time-ServiceDS
+    username: sa
+    password: sa
+    connection:
+        url: jdbc:h2:mem:time-service-database
+  logging:
+    file-handlers:
+      time_service_handler:
+        append: true
+        enabled: true
+        encoding: UTF-8
+        level: ALL
+        file:
+          path: "time-service.log"
+        named-formatter: COLOR_PATTERN
+    loggers:
+      time_service_logger:
+        category: "szp.rafael.javaservice"
+        use-parent-handlers: true
+        level: TRACE
+        handlers:
+          - time_service_handler
+logger:
+  level: INFO
+
+jdbc:
+  driver:
+    module: com.h2database.h2
+    class: org.h2.Driver
+    xa-class: org.h2.Driver
+
+datasource:
+  name: Time-ServiceDS
+
+database:
+  connection:
+    url: jdbc:h2:mem:getinapp-database
+    username: sa
+    password: sa
+
+---
+project:
+  stage: development
+logger:
+  level: DEBUG
