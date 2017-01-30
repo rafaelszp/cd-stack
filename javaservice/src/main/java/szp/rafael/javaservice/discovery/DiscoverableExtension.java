@@ -64,7 +64,7 @@ public class DiscoverableExtension implements Extension {
             log.infof("Registering {%s} on consul",http);
             serviceCheck.setHttp(http);
             serviceCheck.setInterval("10s");
-//            serviceCheck.setTtl("30s");
+            serviceCheck.setTimeout("15s");
             serviceCheck.setDeregisterCriticalServiceAfter("61s");
             newService.setCheck(serviceCheck);
 

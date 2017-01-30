@@ -19,29 +19,52 @@
       <file leaf-file-name="DiscoverableExtension.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/DiscoverableExtension.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="68" column="46" lean-forward="false" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
+            <state relative-caret-position="405">
+              <caret line="27" column="84" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1029#1127#1" expanded="true" />
                 <element signature="e#1069#1086#0" expanded="true" />
                 <element signature="e#1136#1214#1" expanded="true" />
                 <element signature="e#1159#1176#0" expanded="true" />
+                <element signature="e#2156#2196#0" expanded="true" />
                 <element signature="e#2619#2729#1" expanded="true" />
                 <element signature="e#2645#2688#0" expanded="true" />
                 <element signature="e#2645#2688#0" expanded="true" />
-                <element signature="e#2927#2980#0" expanded="true" />
-                <element signature="e#2927#2980#0" expanded="true" />
+                <element signature="e#2885#2915#0" expanded="true" />
+                <element signature="e#2885#2915#0" expanded="true" />
+                <element signature="e#2929#2982#0" expanded="true" />
+                <element signature="e#2929#2982#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javaservice/test.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAXRSActivator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/JAXRSActivator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="425">
+              <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -84,7 +107,6 @@
         <option value="$PROJECT_DIR$/nginx/build.sh" />
         <option value="$PROJECT_DIR$/run.sh" />
         <option value="$PROJECT_DIR$/javaservice/Dockerfile" />
-        <option value="$PROJECT_DIR$/javaservice/test.sh" />
         <option value="$PROJECT_DIR$/javaservice/start.sh" />
         <option value="$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/Producer.java" />
         <option value="$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/Discovery.java" />
@@ -95,14 +117,15 @@
         <option value="$PROJECT_DIR$/javaservice/pom.xml" />
         <option value="$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/ConsulDiscoverable.java" />
         <option value="$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/JAXRSActivator.java" />
-        <option value="$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/DiscoverableExtension.java" />
         <option value="$PROJECT_DIR$/consul/config/consul.json" />
         <option value="$PROJECT_DIR$/consul/build.sh" />
         <option value="$PROJECT_DIR$/consul/Dockerfile" />
         <option value="$PROJECT_DIR$/cleanup-and-run.sh" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/docker/docker-compose.yml" />
         <option value="$PROJECT_DIR$/nginx/service.ctmpl" />
+        <option value="$PROJECT_DIR$/docker/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/DiscoverableExtension.java" />
+        <option value="$PROJECT_DIR$/javaservice/test.sh" />
       </list>
     </option>
   </component>
@@ -148,6 +171,16 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="nginx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cd-stack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaservice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -669,12 +702,12 @@
       <workItem from="1485513133582" duration="47000" />
       <workItem from="1485513182470" duration="5000" />
       <workItem from="1485513211700" duration="21860000" />
-      <workItem from="1485774223283" duration="10195000" />
+      <workItem from="1485774223283" duration="15642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32115000" />
+    <option name="totallyTimeSpent" value="37562000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -687,7 +720,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -702,7 +735,7 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4916345" sideWeight="0.49356222" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35907337" sideWeight="0.49356222" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -710,8 +743,8 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4916345" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3925354" sideWeight="0.49284694" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35649934" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4105534" sideWeight="0.49284694" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -761,11 +794,14 @@
             <element signature="e#1069#1086#0" expanded="true" />
             <element signature="e#1136#1214#1" expanded="true" />
             <element signature="e#1159#1176#0" expanded="true" />
+            <element signature="e#2156#2196#0" expanded="true" />
             <element signature="e#2619#2729#1" expanded="true" />
             <element signature="e#2645#2688#0" expanded="true" />
             <element signature="e#2645#2688#0" expanded="true" />
-            <element signature="e#2927#2980#0" expanded="true" />
-            <element signature="e#2927#2980#0" expanded="true" />
+            <element signature="e#2885#2915#0" expanded="true" />
+            <element signature="e#2885#2915#0" expanded="true" />
+            <element signature="e#2929#2982#0" expanded="true" />
+            <element signature="e#2929#2982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -805,13 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/test.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -889,34 +918,7 @@
         <state relative-caret-position="240">
           <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/JAXRSActivator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/DiscoverableExtension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="68" column="46" lean-forward="false" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1029#1127#1" expanded="true" />
-            <element signature="e#1069#1086#0" expanded="true" />
-            <element signature="e#1136#1214#1" expanded="true" />
-            <element signature="e#1159#1176#0" expanded="true" />
-            <element signature="e#2619#2729#1" expanded="true" />
-            <element signature="e#2645#2688#0" expanded="true" />
-            <element signature="e#2645#2688#0" expanded="true" />
-            <element signature="e#2927#2980#0" expanded="true" />
-            <element signature="e#2927#2980#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -996,10 +998,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/JAXRSActivator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/DiscoverableExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="84" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1029#1127#1" expanded="true" />
+            <element signature="e#1069#1086#0" expanded="true" />
+            <element signature="e#1136#1214#1" expanded="true" />
+            <element signature="e#1159#1176#0" expanded="true" />
+            <element signature="e#2156#2196#0" expanded="true" />
+            <element signature="e#2619#2729#1" expanded="true" />
+            <element signature="e#2645#2688#0" expanded="true" />
+            <element signature="e#2645#2688#0" expanded="true" />
+            <element signature="e#2885#2915#0" expanded="true" />
+            <element signature="e#2885#2915#0" expanded="true" />
+            <element signature="e#2929#2982#0" expanded="true" />
+            <element signature="e#2929#2982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docker/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        <state relative-caret-position="425">
+          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaservice/test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding />
         </state>
       </provider>

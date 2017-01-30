@@ -23,6 +23,9 @@ services:
       - "$PWD/javaservice/src/main/resources/project-stages.yml:/javaservice/project-stages.yml:ro"
     environment:
       - CONSUL_IP=$DOCKER_IP
+    depends_on:
+      - nginx-ct
+      - consul
 
   nginx-ct:
     container_name: nginx_ct
@@ -32,4 +35,6 @@ services:
     volumes:
       - "$PWD/nginx/service.ctmpl:/templates/service.ctmpl"
     links:
+      - consul
+    depends_on:
       - consul
