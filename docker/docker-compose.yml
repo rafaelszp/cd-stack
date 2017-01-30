@@ -4,19 +4,12 @@ services:
     container_name: consul
     command: -server -advertise $DOCKER_IP -bootstrap
     ports:
+     - "8300:8300"
+     - "8301:8301"
      - "8400:8400"
      - "8500:8500"
      - "8600:53/udp"
-    image: "progrium/consul"
-
-  registrator:
-    container_name: registrator
-    command: consul://consul:8500
-    image: gliderlabs/registrator:latest
-    links:
-    - consul
-    volumes:
-    - "/var/run/docker.sock:/tmp/docker.sock"
+    image: "rafaelszp/consul"
 
   time-service-app:
     container_name: time-service-app
@@ -29,7 +22,7 @@ services:
       - "$PWD/javaservice/target/java-service.war:/javaservice/java-service.war:ro"
       - "$PWD/javaservice/src/main/resources/project-stages.yml:/javaservice/project-stages.yml:ro"
     environment:
-      - SERVICE_NAME=time-service-app
+      - CONSUL_IP=$DOCKER_IP
 
   nginx-ct:
     container_name: nginx_ct

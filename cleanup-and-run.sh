@@ -8,6 +8,13 @@ mvn clean package -DskipTests
 sh build.sh
 cd ..
 
+
+echo "Building consul"
+
+cd consul
+sh build.sh
+cd ..
+
 echo "Building NGINX"
 
 cd nginx

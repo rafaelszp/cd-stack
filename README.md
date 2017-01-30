@@ -12,14 +12,20 @@ Continuous Delivery Stack
         mvn clean package -DskipTests
         sh build.sh
         cd ..
-
+        
 2. From **cd-stack** directory execute:
+
+        cd consul
+        sh build.sh
+        cd ..
+
+3. From **cd-stack** directory execute:
 
         cd nginx
         sh build.sh
         cd .. 
         
-3. From **cd-stack** directory:
+4. From **cd-stack** directory:
 
         sh run.sh
         

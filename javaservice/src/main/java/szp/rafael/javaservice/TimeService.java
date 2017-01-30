@@ -19,13 +19,21 @@ public class TimeService {
 
     Logger logger = Logger.getLogger(this.getClass());
 
+
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public Response get() throws UnknownHostException {
         LocalDateTime now = LocalDateTime.now();
         String responseString = InetAddress.getLocalHost().getHostAddress()+": "+now.toString();
-        logger.infof("I will respond with %s",responseString);
+        logger.infof("I will respond with %s on path %s",responseString,"/times");
         Response response = Response.ok(responseString).build();
         return response;
+    }
+
+
+    @GET
+    @Path("/health")
+    public Response health(){
+        return Response.ok().build();
     }
 }
