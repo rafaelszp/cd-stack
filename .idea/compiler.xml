@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java-service" />
+        <module name="discovery" />
+        <module name="time-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="discovery" target="1.8" />
       <module name="java-service" target="1.8" />
+      <module name="time-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

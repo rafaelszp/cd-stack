@@ -1,9 +1,7 @@
-package szp.rafael.javaservice;
+package szp.rafael.javaservice.timeservice;
 
 import org.wildfly.swarm.jaxrs.JAXRSArchive;
 import szp.rafael.javaservice.discovery.ConsulDiscoverable;
-
-import java.io.File;
 
 /**
  * Created by rafaelszp on 1/25/17.
@@ -24,7 +22,7 @@ public class App {
                 .withSSL(cert)
                 .getDeployment();
 
-        deployment.addAsManifestResource(new File("src/main/webapp/META-INF/services/javax.enterprise.inject.spi.Extension"),
+        deployment.addAsManifestResource("META-INF/services/javax.enterprise.inject.spi.Extension",
                 "services/javax.enterprise.inject.spi.Extension");
 
         appBuilder.startAndDeploy();

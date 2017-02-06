@@ -3,16 +3,13 @@ package szp.rafael.javaservice.discovery;
 import com.ecwid.consul.v1.ConsulClient;
 import com.ecwid.consul.v1.agent.model.NewService;
 import org.jboss.logging.Logger;
-import szp.rafael.javaservice.App;
 
 import javax.enterprise.event.Observes;
 import javax.enterprise.inject.spi.AnnotatedType;
 import javax.enterprise.inject.spi.Extension;
 import javax.enterprise.inject.spi.ProcessAnnotatedType;
 import javax.ws.rs.ApplicationPath;
-import javax.ws.rs.Path;
 import java.net.InetAddress;
-import java.util.UUID;
 
 
 /**
@@ -36,6 +33,7 @@ public class DiscoverableExtension implements Extension {
         ApplicationPath path = at.getJavaClass().getAnnotation(ApplicationPath.class);
 
         String consulUrl = System.getProperty("consul.url","localhost");
+        log.infof("Connecting to consul client on {%s}",consulUrl);
         client = new ConsulClient(consulUrl);
         log.infof("swarm.context.path: {%s}",consulDiscoverable.contextRoot());
         log.infof("swarm.port.offset: {%s}",System.getProperty("swarm.port.offset"));
@@ -51,7 +49,8 @@ public class DiscoverableExtension implements Extension {
             }
             int offset = System.getProperty("swarm.port.offset")==null?0:Integer.valueOf(System.getProperty("swarm.port.offset"));
             String hostname = InetAddress.getLocalHost().getHostName();
-            String id = contextPath +"_"+hostname;
+            String ipAddress = InetAddress.getLocalHost().getHostAddress();
+            String id = contextPath +"_"+hostname+"_"+ipAddress;
             NewService newService = new NewService();
             newService.setId(id);
             newService.setAddress(InetAddress.getLocalHost().getHostAddress());

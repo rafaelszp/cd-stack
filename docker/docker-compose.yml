@@ -6,6 +6,7 @@ services:
     ports:
      - "8300:8300"
      - "8301:8301"
+     - "8301:8301/udp"
      - "8400:8400"
      - "8500:8500"
      - "8600:53/udp"
@@ -13,14 +14,11 @@ services:
 
   time-service-app:
     container_name: time-service-app
-    image: "rafaelszp/javaservice"
-    ports:
-      - "10080:10080/tcp"
-      - "10443:10443/tcp"
+    image: "rafaelszp/time-service"
     volumes:
-      - "$PWD/javaservice/target/java-service-hollow-swarm.jar:/javaservice/java-service-hollow-swarm.jar:ro"
-      - "$PWD/javaservice/target/java-service.war:/javaservice/java-service.war:ro"
-      - "$PWD/javaservice/src/main/resources/project-stages.yml:/javaservice/project-stages.yml:ro"
+      - "$PWD/javaservice/time-service/target/time-service-hollow-swarm.jar:/timeservice/time-service-hollow-swarm.jar:ro"
+      - "$PWD/javaservice/time-service/target/time-service.war:/timeservice/time-service.war:ro"
+      - "$PWD/javaservice/time-service/src/main/resources/project-stages.yml:/timeservice/project-stages.yml:ro"
     environment:
       - CONSUL_IP=$DOCKER_IP
     depends_on:

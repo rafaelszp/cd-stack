@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build --tag rafaelszp/javaservice .
+docker build --tag rafaelszp/time-service .

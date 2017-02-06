@@ -1,4 +1,4 @@
-package szp.rafael.javaservice;
+package szp.rafael.javaservice.timeservice;
 
 /**
  * Created by rafaelszp on 1/25/17.

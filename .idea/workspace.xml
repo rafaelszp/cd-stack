@@ -2,10 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f1dc28c-d10d-45a4-a97d-97fdc0cec84c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_4_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaservice/discovery/discovery.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javaservice/time-service/pom.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/java_service_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/java_service_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaservice/keystore.jks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/App.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/AppBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/HTTPSCertificate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/JAXRSActivator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/TimeService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/ConsulDiscoverable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/DiscoverableExtension.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaservice/src/main/resources/META-INF/persistence.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaservice/src/main/resources/project-stages.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaservice/src/main/webapp/META-INF/services/javax.enterprise.inject.spi.Extension" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javaservice/src/main/webapp/WEB-INF/beans.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/javaservice/test.sh" afterPath="$PROJECT_DIR$/javaservice/time-service/test.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/javaservice/time-service.log" afterPath="$PROJECT_DIR$/javaservice/discovery/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker/docker-compose.yml" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaservice/Dockerfile" afterPath="$PROJECT_DIR$/javaservice/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaservice/build.sh" afterPath="$PROJECT_DIR$/javaservice/build.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaservice/java-service.iml" afterPath="$PROJECT_DIR$/javaservice/java-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaservice/pom.xml" afterPath="$PROJECT_DIR$/javaservice/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javaservice/start.sh" afterPath="$PROJECT_DIR$/javaservice/start.sh" />
     </list>
     <ignored path="$PROJECT_DIR$/javaservice/target/" />
+    <ignored path="$PROJECT_DIR$/javaservice/discovery/target/" />
+    <ignored path="$PROJECT_DIR$/javaservice/time-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/javaservice/start.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              <caret line="3" column="125" lean-forward="false" selection-start-line="3" selection-start-column="125" selection-end-line="3" selection-end-column="125" />
               <folding />
             </state>
           </provider>
@@ -32,22 +61,9 @@
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javaservice/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+            <state relative-caret-position="75">
+              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="19" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="477">
-                <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="40" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -55,20 +71,50 @@
       <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="61" lean-forward="false" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+            <state relative-caret-position="236">
+              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project-stages.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaservice/time-service/src/main/resources/project-stages.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javaservice/time-service/test.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaservice/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="35">
+              <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DiscoverableExtension.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/DiscoverableExtension.java">
+        <entry file="file://$PROJECT_DIR$/javaservice/discovery/src/main/java/szp/rafael/javaservice/discovery/DiscoverableExtension.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="61" column="40" lean-forward="false" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+            <state relative-caret-position="362">
+              <caret line="67" column="46" lean-forward="true" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,7 +144,18 @@
       <find>manage</find>
       <find>monitor</find>
       <find>/health</find>
+      <find>discovery</find>
+      <find>swarm.cdi</find>
+      <find>swarm.cdi.</find>
+      <find>loggin</find>
+      <find>this.configs</find>
+      <find>stagecofig</find>
+      <find>consul</find>
+      <find>java-service</find>
     </findStrings>
+    <replaceStrings>
+      <replace>time-service</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -113,15 +170,12 @@
       <list>
         <option value="$PROJECT_DIR$/nginx/build.sh" />
         <option value="$PROJECT_DIR$/run.sh" />
-        <option value="$PROJECT_DIR$/javaservice/Dockerfile" />
-        <option value="$PROJECT_DIR$/javaservice/start.sh" />
         <option value="$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/Producer.java" />
         <option value="$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/Discovery.java" />
         <option value="$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/ServiceDiscovery.java" />
         <option value="$PROJECT_DIR$/javaservice/src/main/webapp/META-INF/javax.enterprise.inject.spi.Extension" />
         <option value="$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/App.java" />
         <option value="$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/TimeService.java" />
-        <option value="$PROJECT_DIR$/javaservice/pom.xml" />
         <option value="$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/ConsulDiscoverable.java" />
         <option value="$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/JAXRSActivator.java" />
         <option value="$PROJECT_DIR$/consul/config/consul.json" />
@@ -130,9 +184,20 @@
         <option value="$PROJECT_DIR$/cleanup-and-run.sh" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/nginx/service.ctmpl" />
-        <option value="$PROJECT_DIR$/docker/docker-compose.yml" />
         <option value="$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/DiscoverableExtension.java" />
+        <option value="$PROJECT_DIR$/javaservice/discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/javaservice/time-service/src/main/java/szp/rafael/javaservice/App.java" />
+        <option value="$PROJECT_DIR$/javaservice/time-service/pom.xml" />
+        <option value="$PROJECT_DIR$/javaservice/time-service/src/main/java/szp/rafael/javaservice/timeservice/App.java" />
+        <option value="$PROJECT_DIR$/javaservice/time-service/src/main/java/szp/rafael/javaservice/timeservice/AppBuilder.java" />
         <option value="$PROJECT_DIR$/javaservice/test.sh" />
+        <option value="$PROJECT_DIR$/javaservice/build.sh" />
+        <option value="$PROJECT_DIR$/javaservice/pom.xml" />
+        <option value="$PROJECT_DIR$/javaservice/Dockerfile" />
+        <option value="$PROJECT_DIR$/javaservice/start.sh" />
+        <option value="$PROJECT_DIR$/javaservice/discovery/src/main/java/szp/rafael/javaservice/discovery/DiscoverableExtension.java" />
+        <option value="$PROJECT_DIR$/docker/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/javaservice/time-service/test.sh" />
       </list>
     </option>
   </component>
@@ -149,9 +214,25 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="time-service" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1434" />
-    <option name="height" value="873" />
+    <option name="x" value="-1" />
+    <option name="y" value="-1" />
+    <option name="width" value="1442" />
+    <option name="height" value="875" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -170,6 +251,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -189,6 +271,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="javaservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cd-stack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="time-service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -228,59 +324,33 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/javaservice/discovery/src/main/resources/META-INF/services" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.26436782" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/javaservice/src/main/webapp/META-INF/services" />
-      <recent name="$PROJECT_DIR$/javaservice" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/nginx" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/javaservice/time-service" />
+      <recent name="$PROJECT_DIR$/javaservice/discovery/src/main/resources" />
+      <recent name="$PROJECT_DIR$/javaservice/src/main/webapp/META-INF/services" />
+      <recent name="$PROJECT_DIR$/javaservice" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.App">
-    <configuration default="false" name="App" type="Application" factoryName="Application" singleton="true" temporary="true" nameIsGenerated="true">
-      <extension name="chronon">
-        <include>
-          <pattern>
-            <option name="PATTERN" value="szp.rafael.javaservice.**" />
-            <option name="ENABLED" value="true" />
-          </pattern>
-        </include>
-      </extension>
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="szp.rafael.javaservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="szp.rafael.javaservice.App" />
-      <option name="VM_PARAMETERS" value="-Dswarm.project.stage=development -Dconsul.url=10.21.6.45 -Dswarm.port.offset=2001" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/javaservice" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java-service" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.TimeService-APP">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -368,6 +438,17 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/sbin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
@@ -622,14 +703,24 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="false" name="TimeService-APP" type="Application" factoryName="Application" singleton="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="szp.rafael.javaservice.timeservice.App" />
+      <option name="VM_PARAMETERS" value="-Dswarm.project.stage=development -Dconsul.url=10.21.6.45 -Dswarm.port.offset=2001" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/javaservice/time-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="time-service" />
+      <envs />
+      <method />
+    </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.App" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TimeService-APP" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.App" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -649,12 +740,14 @@
       <workItem from="1486053021201" duration="134000" />
       <workItem from="1486053170184" duration="1445000" />
       <workItem from="1486120258070" duration="926000" />
-      <workItem from="1486121214983" duration="6136000" />
+      <workItem from="1486121214983" duration="7480000" />
+      <workItem from="1486376232319" duration="9110000" />
+      <workItem from="1486396286720" duration="6620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46652000" />
+    <option name="totallyTimeSpent" value="63726000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -666,41 +759,41 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1434" height="873" extended-state="1" />
+    <frame x="-1" y="-1" width="1442" height="875" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3925354" sideWeight="0.5071531" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8410596" sideWeight="0.49284694" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6287979" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40554821" sideWeight="0.49284694" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26834533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27181688" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4029062" sideWeight="0.49356222" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35907337" sideWeight="0.49356222" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947233" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32760897" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35649934" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -714,7 +807,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -723,108 +816,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javaservice/start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="61" lean-forward="false" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/DiscoverableExtension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="40" lean-forward="true" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="315">
             <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -846,27 +842,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/DiscoverableExtension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="84" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/test.sh">
+    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/DiscoverableExtension.java" />
+    <entry file="file://$PROJECT_DIR$/javaservice/time-service/test.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/JAXRSActivator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/JAXRSActivator.java" />
     <entry file="file://$PROJECT_DIR$/docker/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -875,20 +859,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/TimeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/DiscoverableExtension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="131" lean-forward="false" selection-start-line="58" selection-start-column="131" selection-end-line="58" selection-end-column="131" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/TimeService.java" />
+    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/DiscoverableExtension.java" />
     <entry file="file://$PROJECT_DIR$/docker/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -905,74 +877,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/src/main/resources/project-stages.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/time-service.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/javaservice/src/main/resources/project-stages.yml" />
+    <entry file="file://$PROJECT_DIR$/javaservice/time-service.log" />
     <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/ws/rs/Path.class" />
     <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/Producer.java" />
     <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/Discovery.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/enterprise/inject/spi/Extension.class" />
-    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/AppBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="99" column="70" lean-forward="false" selection-start-line="99" selection-start-column="69" selection-end-line="99" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/src/main/webapp/META-INF/services/javax.enterprise.inject.spi.Extension">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="54" lean-forward="false" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="51" column="38" lean-forward="false" selection-start-line="48" selection-start-column="20" selection-end-line="51" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/TimeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/ConsulDiscoverable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/AppBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/App.java" />
+    <entry file="file://$PROJECT_DIR$/javaservice/src/main/webapp/META-INF/services/javax.enterprise.inject.spi.Extension" />
+    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/TimeService.java" />
+    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/ConsulDiscoverable.java" />
     <entry file="file://$PROJECT_DIR$/consul/config/consul.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1001,24 +916,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/src/main/resources/project-stages.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/javaservice/src/main/resources/project-stages.yml" />
     <entry file="file://$PROJECT_DIR$/consul/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cleanup-and-run.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1029,62 +931,306 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/test.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/JAXRSActivator.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="225">
+            <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/JAXRSActivator.java">
+    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/DiscoverableExtension.java" />
+    <entry file="file://$PROJECT_DIR$/javaservice/time-service/time-service.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/jboss/resteasy/resteasy-jaxb-provider/3.0.19.Final/resteasy-jaxb-provider-3.0.19.Final.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="53" column="7" lean-forward="true" selection-start-line="53" selection-start-column="7" selection-end-line="57" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/szp.rafael:time-service:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>szp.rafael:time-service:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">szp.rafael:time-service:1.0-SNAPSHOT</node>
+            <node x="" y="">szp.rafael:discovery:jar:1.0-SNAPSHOT</node>
+            <node x="" y="">szp.rafael:discovery:jar:1.0-SNAPSHOT/com.ecwid.consul:consul-api:jar:1.2.1</node>
+            <node x="" y="">szp.rafael:discovery:jar:1.0-SNAPSHOT/com.ecwid.consul:consul-api:jar:1.2.1/com.google.code.gson:gson:jar:2.3</node>
+            <node x="" y="">szp.rafael:discovery:jar:1.0-SNAPSHOT/com.ecwid.consul:consul-api:jar:1.2.1/org.apache.httpcomponents:httpcore:jar:4.4.5</node>
+            <node x="" y="">javax:javaee-api:jar:7.0</node>
+            <node x="" y="">javax:javaee-api:jar:7.0/com.sun.mail:javax.mail:jar:1.5.0</node>
+            <node x="" y="">javax:javaee-api:jar:7.0/com.sun.mail:javax.mail:jar:1.5.0/javax.activation:activation:jar:1.1</node>
+            <node x="" y="">org.wildfly.swarm:logging:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:logging:jar:2017.1.1/org.wildfly.swarm:container:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:logging:jar:2017.1.1/org.wildfly.swarm:container:jar:2017.1.1/org.wildfly.swarm:spi:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:logging:jar:2017.1.1/org.wildfly.swarm:container:jar:2017.1.1/org.wildfly.swarm:spi:jar:2017.1.1/org.jboss.shrinkwrap:shrinkwrap-api:jar:1.2.6</node>
+            <node x="" y="">org.wildfly.swarm:logging:jar:2017.1.1/org.wildfly.swarm:container:jar:2017.1.1/org.wildfly.swarm:spi:jar:2017.1.1/org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.6</node>
+            <node x="" y="">org.wildfly.swarm:logging:jar:2017.1.1/org.wildfly.swarm:container:jar:2017.1.1/org.wildfly.swarm:spi:jar:2017.1.1/org.jboss.shrinkwrap:shrinkwrap-impl-base:jar:1.2.6/org.jboss.shrinkwrap:shrinkwrap-spi:jar:1.2.6</node>
+            <node x="" y="">org.wildfly.swarm:logging:jar:2017.1.1/org.wildfly.swarm:container:jar:2017.1.1/org.wildfly.swarm:config-api:jar:0.5.1</node>
+            <node x="" y="">org.wildfly.swarm:logging:jar:2017.1.1/org.wildfly.swarm:container:jar:2017.1.1/org.wildfly.swarm:config-api:jar:0.5.1/org.wildfly.swarm:config-api-runtime:jar:0.5.1</node>
+            <node x="" y="">org.wildfly.swarm:logging:jar:2017.1.1/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.wildfly.swarm:undertow:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.wildfly.swarm:undertow:jar:2017.1.1/org.wildfly.swarm:io:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.wildfly.swarm:undertow:jar:2017.1.1/org.wildfly.swarm:request-controller:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.wildfly.swarm:undertow:jar:2017.1.1/org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-jboss:jar:2.0.0-alpha-9</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.wildfly.swarm:undertow:jar:2017.1.1/org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-jboss:jar:2.0.0-alpha-9</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.wildfly.swarm:undertow:jar:2017.1.1/org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0-alpha-9</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.wildfly.swarm:undertow:jar:2017.1.1/org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-javaee:jar:2.0.0-alpha-9/org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-api-base:jar:2.0.0-alpha-9</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.wildfly.swarm:undertow:jar:2017.1.1/org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-javaee:jar:2.0.0-alpha-9</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.wildfly.swarm:undertow:jar:2017.1.1/org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-javaee:jar:2.0.0-alpha-9/org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-base:jar:2.0.0-alpha-9</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.wildfly.swarm:undertow:jar:2017.1.1/org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-javaee:jar:2.0.0-alpha-9/org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-impl-base:jar:2.0.0-alpha-9/org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-spi:jar:2.0.0-alpha-9</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.wildfly.swarm:undertow:jar:2017.1.1/org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:jar:1.0.0.Final</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.wildfly.swarm:undertow:jar:2017.1.1/org.jboss.spec.javax.websocket:jboss-websocket-api_1.1_spec:jar:1.1.1.Final</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.wildfly.swarm:undertow:jar:2017.1.1/io.undertow:undertow-servlet:jar:1.4.0.Final</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.wildfly.swarm:undertow:jar:2017.1.1/io.undertow:undertow-servlet:jar:1.4.0.Final/io.undertow:undertow-core:jar:1.4.0.Final</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.wildfly.swarm:undertow:jar:2017.1.1/io.undertow:undertow-servlet:jar:1.4.0.Final/io.undertow:undertow-core:jar:1.4.0.Final/org.jboss.logging:jboss-logging:jar:3.2.1.Final</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.wildfly.swarm:undertow:jar:2017.1.1/io.undertow:undertow-servlet:jar:1.4.0.Final/io.undertow:undertow-core:jar:1.4.0.Final/org.jboss.xnio:xnio-api:jar:3.3.6.Final</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.wildfly.swarm:undertow:jar:2017.1.1/io.undertow:undertow-servlet:jar:1.4.0.Final/io.undertow:undertow-core:jar:1.4.0.Final/org.jboss.xnio:xnio-nio:jar:3.3.6.Final</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.wildfly.swarm:security:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.wildfly.swarm:security:jar:2017.1.1/org.jboss.spec.javax.annotation:jboss-annotations-api_1.2_spec:jar:1.0.0.Final</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.wildfly.swarm:jaxrs-cdi:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.ow2.asm:asm-all:jar:5.0.4</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.0_spec:jar:1.0.0.Final</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/com.fasterxml.jackson.core:jackson-core:jar:2.7.4</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/com.fasterxml.jackson.core:jackson-annotations:jar:2.7.4</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/com.fasterxml.jackson.core:jackson-databind:jar:2.7.4</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/com.fasterxml.jackson.core:jackson-databind:jar:2.7.4/com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.7.4</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.7.4/com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.7.4</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.7.4/com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.7.4</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs:jar:2017.1.1/com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.7.4/com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.7.4/com.fasterxml.jackson.core:jackson-annotations:jar:2.7.4</node>
+            <node x="" y="">org.wildfly.swarm:cdi:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:cdi:jar:2017.1.1/org.wildfly.swarm:cdi-config:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:cdi:jar:2017.1.1/org.wildfly.swarm:bean-validation:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:cdi:jar:2017.1.1/org.wildfly.swarm:bean-validation:jar:2017.1.1/javax.validation:validation-api:jar:1.1.0.Final</node>
+            <node x="" y="">org.wildfly.swarm:cdi:jar:2017.1.1/org.wildfly.swarm:ee:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:cdi:jar:2017.1.1/org.wildfly.swarm:ee:jar:2017.1.1/org.wildfly.swarm:naming:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:cdi:jar:2017.1.1/org.wildfly.swarm:ee:jar:2017.1.1/org.jboss.spec.javax.enterprise.concurrent:jboss-concurrency-api_1.0_spec:jar:1.0.0.Final</node>
+            <node x="" y="">org.wildfly.swarm:cdi:jar:2017.1.1/org.wildfly.swarm:ee:jar:2017.1.1/org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.2_spec:jar:1.0.0.Final</node>
+            <node x="" y="">org.wildfly.swarm:cdi:jar:2017.1.1/org.wildfly.swarm:transactions:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:cdi:jar:2017.1.1/org.wildfly.swarm:transactions:jar:2017.1.1/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final</node>
+            <node x="" y="">org.wildfly.swarm:cdi:jar:2017.1.1/org.wildfly.swarm:transactions:jar:2017.1.1/org.jboss.narayana.jts:narayana-jts-idlj:jar:5.3.3.Final</node>
+            <node x="" y="">org.wildfly.swarm:cdi:jar:2017.1.1/org.wildfly.swarm:transactions:jar:2017.1.1/org.jboss.narayana.jts:narayana-jts-idlj:jar:5.3.3.Final/org.jboss.openjdk-orb:openjdk-orb:jar:8.0.4.Final</node>
+            <node x="" y="">org.wildfly.swarm:cdi:jar:2017.1.1/javax.enterprise:cdi-api:jar:1.2</node>
+            <node x="" y="">org.wildfly.swarm:cdi:jar:2017.1.1/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">org.wildfly.swarm:jpa:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:jpa:jar:2017.1.1/org.wildfly.swarm:bootstrap:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:jpa:jar:2017.1.1/org.wildfly.swarm:bootstrap:jar:2017.1.1/org.jboss.modules:jboss-modules:jar:1.5.2.Final</node>
+            <node x="" y="">org.wildfly.swarm:jpa:jar:2017.1.1/org.wildfly.swarm:bootstrap:jar:2017.1.1/org.yaml:snakeyaml:jar:1.17</node>
+            <node x="" y="">org.wildfly.swarm:jpa:jar:2017.1.1/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final</node>
+            <node x="" y="">org.wildfly.swarm:hibernate-validator:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:hibernate-validator:jar:2017.1.1/org.hibernate:hibernate-validator:jar:5.2.4.Final</node>
+            <node x="" y="">org.wildfly.swarm:hibernate-validator:jar:2017.1.1/org.hibernate:hibernate-validator:jar:5.2.4.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
+            <node x="" y="">org.wildfly.swarm:hibernate-validator:jar:2017.1.1/org.hibernate:hibernate-validator:jar:5.2.4.Final/com.fasterxml:classmate:jar:1.1.0</node>
+            <node x="" y="">org.wildfly.swarm:hibernate-validator:jar:2017.1.1/org.jboss.spec.javax.el:jboss-el-api_3.0_spec:jar:1.0.7.Final</node>
+            <node x="" y="">org.wildfly.swarm:hibernate-validator:jar:2017.1.1/org.glassfish:javax.el-impl:jar:3.0.1-b08-jbossorg-1</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs-validator:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs-validator:jar:2017.1.1/org.jboss.resteasy:resteasy-validator-provider-11:jar:3.0.19.Final</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs-validator:jar:2017.1.1/org.jboss.resteasy:resteasy-validator-provider-11:jar:3.0.19.Final/org.hibernate:hibernate-validator:jar:5.1.3.Final</node>
+            <node x="" y="">org.wildfly.swarm:jaxrs-validator:jar:2017.1.1/org.jboss.resteasy:resteasy-validator-provider-11:jar:3.0.19.Final/com.fasterxml:classmate:jar:0.8.0</node>
+            <node x="" y="">org.wildfly.swarm:datasources:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:datasources:jar:2017.1.1/org.wildfly.swarm:jca:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:datasources:jar:2017.1.1/org.wildfly.swarm:jca:jar:2017.1.1/org.wildfly.swarm:connector:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:datasources:jar:2017.1.1/org.wildfly.swarm:jca:jar:2017.1.1/org.wildfly.swarm:connector:jar:2017.1.1/org.jboss.spec.javax.resource:jboss-connector-api_1.7_spec:jar:1.0.0.Final</node>
+            <node x="" y="">org.wildfly.swarm:datasources:jar:2017.1.1/org.jboss.ironjacamar:ironjacamar-jdbc:jar:1.3.4.Final</node>
+            <node x="" y="">org.wildfly.swarm:ejb:jar:2017.1.1</node>
+            <node x="" y="">org.wildfly.swarm:ejb:jar:2017.1.1/org.jboss.spec.javax.ejb:jboss-ejb-api_3.2_spec:jar:1.0.0.Final</node>
+            <node x="" y="">org.wildfly.swarm:ejb:jar:2017.1.1/org.jboss.ejb3:jboss-ejb3-ext-api:jar:2.2.0.Final</node>
+            <node x="" y="">org.jboss.logmanager:jboss-logmanager:jar:2.0.4.Final</node>
+            <node x="" y="">com.github.gyntools:gyntools-rest:jar:0.1.0</node>
+            <node x="" y="">com.github.gyntools:gyntools-rest:jar:0.1.0/javax.ws.rs:javax.ws.rs-api:jar:2.0.1</node>
+            <node x="" y="">com.github.gyntools:gyntools-test:jar:0.1.0</node>
+            <node x="" y="">com.github.gyntools:gyntools-test:jar:0.1.0/org.mockito:mockito-all:jar:1.10.19</node>
+            <node x="" y="">com.github.gyntools:gyntools-test:jar:0.1.0/org.testng:testng:jar:6.9.10</node>
+            <node x="" y="">com.github.gyntools:gyntools-test:jar:0.1.0/org.testng:testng:jar:6.9.10/com.beust:jcommander:jar:1.48</node>
+            <node x="" y="">com.github.gyntools:gyntools-test:jar:0.1.0/org.testng:testng:jar:6.9.10/org.beanshell:bsh:jar:2.0b4</node>
+            <node x="" y="">com.github.gyntools:gyntools-test:jar:0.1.0/org.hibernate:hibernate-entitymanager:jar:5.0.7.Final</node>
+            <node x="" y="">com.github.gyntools:gyntools-test:jar:0.1.0/org.hibernate:hibernate-entitymanager:jar:5.0.7.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final</node>
+            <node x="" y="">com.github.gyntools:gyntools-test:jar:0.1.0/org.hibernate:hibernate-entitymanager:jar:5.0.7.Final/org.javassist:javassist:jar:3.18.1-GA</node>
+            <node x="" y="">com.github.gyntools:gyntools-test:jar:0.1.0/org.hibernate:hibernate-entitymanager:jar:5.0.7.Final/org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1</node>
+            <node x="" y="">com.github.gyntools:gyntools-test:jar:0.1.0/org.hibernate:hibernate-core:jar:5.0.7.Final</node>
+            <node x="" y="">com.github.gyntools:gyntools-test:jar:0.1.0/org.hibernate:hibernate-core:jar:5.0.7.Final/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">com.github.gyntools:gyntools-test:jar:0.1.0/org.hibernate:hibernate-core:jar:5.0.7.Final/org.jboss:jandex:jar:2.0.0.Final</node>
+            <node x="" y="">com.github.gyntools:gyntools-test:jar:0.1.0/com.h2database:h2:jar:1.4.192</node>
+            <node x="" y="">org.easytesting:fest-assert-core:jar:2.0M10</node>
+            <node x="" y="">org.easytesting:fest-assert-core:jar:2.0M10/org.easytesting:fest-util:jar:1.2.5</node>
+            <node x="" y="">org.jboss.resteasy:resteasy-jaxb-provider:jar:3.0.19.Final</node>
+            <node x="" y="">org.jboss.resteasy:resteasy-jaxb-provider:jar:3.0.19.Final/com.sun.xml.bind:jaxb-impl:jar:2.2.7</node>
+            <node x="" y="">org.jboss.resteasy:resteasy-jaxb-provider:jar:3.0.19.Final/com.sun.xml.bind:jaxb-impl:jar:2.2.7/com.sun.xml.bind:jaxb-core:jar:2.2.7</node>
+            <node x="" y="">org.jboss.resteasy:resteasy-jaxb-provider:jar:3.0.19.Final/com.sun.xml.bind:jaxb-impl:jar:2.2.7/com.sun.xml.bind:jaxb-core:jar:2.2.7/javax.xml.bind:jaxb-api:jar:2.2.7</node>
+            <node x="" y="">org.jboss.resteasy:resteasy-jaxb-provider:jar:3.0.19.Final/com.sun.xml.bind:jaxb-impl:jar:2.2.7/com.sun.xml.bind:jaxb-core:jar:2.2.7/com.sun.istack:istack-commons-runtime:jar:2.16</node>
+            <node x="" y="">org.jboss.resteasy:resteasy-jaxb-provider:jar:3.0.19.Final/com.sun.xml.bind:jaxb-impl:jar:2.2.7/com.sun.xml.fastinfoset:FastInfoset:jar:1.2.12</node>
+            <node x="" y="">org.jboss.resteasy:resteasy-jaxb-provider:jar:3.0.19.Final/com.sun.xml.bind:jaxb-impl:jar:2.2.7/com.sun.xml.fastinfoset:FastInfoset:jar:1.2.12/javax.xml.bind:jsr173_api:jar:1.0</node>
+            <node x="" y="">org.jboss.resteasy:resteasy-jaxb-provider:jar:3.0.19.Final/org.jboss.logging:jboss-logging:jar:3.1.4.GA</node>
+            <node x="" y="">org.jboss.resteasy:resteasy-jackson-provider:jar:3.0.19.Final</node>
+            <node x="" y="">org.jboss.resteasy:resteasy-jackson-provider:jar:3.0.19.Final/org.codehaus.jackson:jackson-core-asl:jar:1.9.12</node>
+            <node x="" y="">org.jboss.resteasy:resteasy-jackson-provider:jar:3.0.19.Final/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.12</node>
+            <node x="" y="">org.jboss.resteasy:resteasy-jackson-provider:jar:3.0.19.Final/org.codehaus.jackson:jackson-jaxrs:jar:1.9.12</node>
+            <node x="" y="">org.jboss.resteasy:resteasy-jackson-provider:jar:3.0.19.Final/org.codehaus.jackson:jackson-xc:jar:1.9.12</node>
+            <node x="" y="">io.rest-assured:rest-assured:jar:3.0.1</node>
+            <node x="" y="">io.rest-assured:rest-assured:jar:3.0.1/org.codehaus.groovy:groovy:jar:2.4.6</node>
+            <node x="" y="">io.rest-assured:rest-assured:jar:3.0.1/org.codehaus.groovy:groovy-xml:jar:2.4.6</node>
+            <node x="" y="">io.rest-assured:rest-assured:jar:3.0.1/org.apache.httpcomponents:httpclient:jar:4.5.2</node>
+            <node x="" y="">io.rest-assured:rest-assured:jar:3.0.1/org.apache.httpcomponents:httpclient:jar:4.5.2/org.apache.httpcomponents:httpcore:jar:4.4.4</node>
+            <node x="" y="">io.rest-assured:rest-assured:jar:3.0.1/org.apache.httpcomponents:httpclient:jar:4.5.2/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">io.rest-assured:rest-assured:jar:3.0.1/org.apache.httpcomponents:httpclient:jar:4.5.2/commons-codec:commons-codec:jar:1.9</node>
+            <node x="" y="">io.rest-assured:rest-assured:jar:3.0.1/org.apache.httpcomponents:httpmime:jar:4.5.1</node>
+            <node x="" y="">io.rest-assured:rest-assured:jar:3.0.1/org.apache.httpcomponents:httpmime:jar:4.5.1/org.apache.httpcomponents:httpclient:jar:4.5.1</node>
+            <node x="" y="">io.rest-assured:rest-assured:jar:3.0.1/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">io.rest-assured:rest-assured:jar:3.0.1/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="" y="">io.rest-assured:rest-assured:jar:3.0.1/org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1</node>
+            <node x="" y="">io.rest-assured:rest-assured:jar:3.0.1/io.rest-assured:json-path:jar:3.0.1</node>
+            <node x="" y="">io.rest-assured:rest-assured:jar:3.0.1/io.rest-assured:json-path:jar:3.0.1/org.codehaus.groovy:groovy-json:jar:2.4.6</node>
+            <node x="" y="">io.rest-assured:rest-assured:jar:3.0.1/io.rest-assured:json-path:jar:3.0.1/io.rest-assured:rest-assured-common:jar:3.0.1</node>
+            <node x="" y="">io.rest-assured:rest-assured:jar:3.0.1/io.rest-assured:xml-path:jar:3.0.1</node>
+            <node x="" y="">io.rest-assured:rest-assured:jar:3.0.1/io.rest-assured:xml-path:jar:3.0.1/org.apache.commons:commons-lang3:jar:3.4</node>
+            <node x="" y="">com.h2database:h2:jar:1.4.187</node>
+            <node x="" y="">org.slf4j:jcl-over-slf4j:jar:1.7.7</node>
+            <node x="" y="">org.slf4j:jcl-over-slf4j:jar:1.7.7/org.slf4j:slf4j-api:jar:1.7.7</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="561.0" y="180.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaservice/discovery/src/main/java/szp/rafael/javaservice/discovery/ConsulDiscoverable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaservice/discovery/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaservice/time-service/src/main/java/szp/rafael/javaservice/timeservice/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/wildfly/swarm/container/2017.2.0/container-2017.2.0.jar!/org/wildfly/swarm/Swarm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/wildfly/swarm/container/2017.2.0/container-2017.2.0-sources.jar!/org/wildfly/swarm/Swarm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="635" column="42" lean-forward="false" selection-start-line="635" selection-start-column="42" selection-end-line="635" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaservice/time-service/src/main/java/szp/rafael/javaservice/timeservice/AppBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="138" column="36" lean-forward="false" selection-start-line="138" selection-start-column="36" selection-end-line="138" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanup-and-run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaservice/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaservice/time-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="99" column="45" lean-forward="false" selection-start-line="99" selection-start-column="45" selection-end-line="99" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaservice/time-service/src/main/resources/project-stages.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaservice/discovery/src/main/java/szp/rafael/javaservice/discovery/DiscoverableExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="67" column="46" lean-forward="true" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaservice/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javaservice/start.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <caret line="3" column="125" lean-forward="false" selection-start-line="3" selection-start-column="125" selection-end-line="3" selection-end-column="125" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docker/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="61" lean-forward="false" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+        <state relative-caret-position="236">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaservice/src/main/java/szp/rafael/javaservice/discovery/DiscoverableExtension.java">
+    <entry file="file://$PROJECT_DIR$/javaservice/time-service/test.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="61" column="40" lean-forward="false" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="477">
-            <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="40" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1093,13 +1239,19 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
-          <last-edited>java-service:war</last-edited>
+          <artifact-editor>
+            <show-content>
+              <type id="jpa-descriptors" />
+              <type id="artifact" />
+              <type id="javaee-facet-resources" />
+              <type id="library" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>time-service:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.5" />
+                <option value="0.26436782" />
               </list>
             </option>
           </splitter-proportions>

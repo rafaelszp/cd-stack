@@ -1,4 +1,4 @@
-package szp.rafael.javaservice;
+package szp.rafael.javaservice.timeservice;
 
 import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.jboss.shrinkwrap.api.asset.ClassLoaderAsset;

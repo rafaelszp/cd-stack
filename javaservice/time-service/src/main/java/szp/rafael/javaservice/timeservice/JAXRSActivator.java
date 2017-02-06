@@ -1,4 +1,4 @@
-package szp.rafael.javaservice;
+package szp.rafael.javaservice.timeservice;
 
 import szp.rafael.javaservice.discovery.ConsulDiscoverable;
 

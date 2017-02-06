@@ -1,12 +1,18 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="java-service:war exploded">
-    <output-path>$PROJECT_DIR$/javaservice/target/java-service</output-path>
+  <artifact type="exploded-war" name="time-service:war exploded">
+    <output-path>$PROJECT_DIR$/javaservice/time-service/target/time-service</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="java-service" />
+          <element id="module-output" name="time-service" />
         </element>
         <element id="directory" name="lib">
+          <element id="archive" name="discovery-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="discovery" />
+          </element>
+          <element id="library" level="project" name="Maven: com.ecwid.consul:consul-api:1.2.1" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.3" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.5" />
           <element id="library" level="project" name="Maven: org.wildfly.swarm:logging:2017.1.1" />
           <element id="library" level="project" name="Maven: org.wildfly.swarm:container:2017.1.1" />
           <element id="library" level="project" name="Maven: org.wildfly.swarm:spi:2017.1.1" />
@@ -81,21 +87,18 @@
           <element id="library" level="project" name="Maven: org.jboss.logmanager:jboss-logmanager:2.0.4.Final" />
           <element id="library" level="project" name="Maven: com.github.gyntools:gyntools-rest:0.1.0" />
           <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" />
-          <element id="library" level="project" name="Maven: com.ecwid.consul:consul-api:1.2.1" />
-          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.3" />
-          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.5" />
+          <element id="library" level="project" name="Maven: org.easytesting:fest-assert-core:2.0M10" />
+          <element id="library" level="project" name="Maven: org.easytesting:fest-util:1.2.5" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.2" />
           <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.9" />
-          <element id="library" level="project" name="Maven: org.easytesting:fest-assert-core:2.0M10" />
-          <element id="library" level="project" name="Maven: org.easytesting:fest-util:1.2.5" />
           <element id="library" level="project" name="Maven: com.h2database:h2:1.4.187" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/javaservice/target/java-service/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/javaservice/time-service/target/time-service/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="java-service/web/Web" />
+      <element id="javaee-facet-resources" facet="time-service/web/Web" />
     </root>
   </artifact>
 </component>
